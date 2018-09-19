@@ -100,26 +100,52 @@ textarea {
    .center {
      text-align: center;
    }
-
    .noLi {
      list-style-type: none;
      display: flex;
-     align-items: flex-end;
+   }
+   .wNav {
+     width: 25%;
+   }
+   .wAside {
+     width: 20%;
+   }
+   .wSection {
+     width: 90%;
+     background-color: yellow;
+     margin: auto;
+   }
+   .wArticle {
+     width: 28%;
+   }
+   .flexCenter {
+     display: flex;
+     justify-content: center;
+   }
+   .brd {
+     border: 1px solid black;
    }
 
 
 
    /* =====================================start commun rules */
-   header {
-     background-color: red;
-   }
    nav {
      width: 100%;
      background-color: yellow;
      display: flex;
      justify-content: space-between;
-
    }
+  nav div ul li {
+     padding-left: 10px;
+   }
+   aside ul li {
+     padding-left: 10px;
+   }
+   main {
+     background-color: pink;
+   }
+
+
 
 
 

@@ -12,8 +12,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -27,18 +26,18 @@
 
     <!-- START NAV-->
     <nav>
-      <div>
-        <ul class ="noLi wNav">
-          <li><a href="corbeille.html">Corbeille</a></li>
-          <li><a href="perso.html">Infos Utilisateur</a></li>
-          <li><a href="projet.html">Nouveau Projet</a></li>
+      <div class="wNav">
+        <ul class ="noLi">
+          <li><a href="corbeille.html"><i class="fas fa-trash"></i>Corbeille</a></li>
+          <li><a href="perso.html"><i class="fas fa-user"></i>Infos Utilisateur</a></li>
+          <li><a href="projet.html"><i class="fas fa-file-export"></i>Nouveau Projet</a></li>
         </ul>
       </div>
       <!-- START ASIDE-->
-      <aside>
-        <ul class ="noLi wAsi">
-          <li><a href="connexion.html">Connexion</a></li>
-          <li><a href="deconnexion.html">Déconnexion</a></li>
+      <aside class="wAside">
+        <ul class ="noLi">
+          <li><a href="connexion.html"><i class="fas fa-sign-in-alt"></i>Connexion</a></li>
+          <li><a href="deconnexion.html"><i class="fas fa-door-open"></i>Déconnexion</a></li>
         </ul>
       </aside>
     </nav>
@@ -47,22 +46,22 @@
 
   <!-- START MAIN -->
   <main>
-    <h2>CHANTIERS</h2>
+    <h2 class="center">CHANTIERS</h2>
     <!--START SECTION : SEMAINE 23-->
-    <section>
-      <h3>SEMAINE : 23</h3>
-      <div>
+    <section class="wSection">
+      <h3 class="center">SEMAINE : 23</h3>
+      <div class="flexCenter">
         <!--START POST-IT1-->
-        <article>
-          <h3>Chantier COLI</h3>
-          <div>
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
             <input type="button" class="btn" value="ARRÊT" />
             <input type="button" class="btn" value="EN COURS" />
             <input type="button" class="btn" value="TERMINÉ" />
           </div>
           <article>
-            <h4>DESCRIPTIF CHANTIER</h4>
-            <p>Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
           </article>
           <div>
             <ol>
@@ -74,7 +73,7 @@
         </article>
         <!--END POST-IT1-->
         <!--START POST-IT2-->
-        <article>
+        <article class="wArticle">
           <h3>Chantier COLI</h3>
           <div>
             <input type="button" class="btn" value="ARRÊT" />
@@ -95,7 +94,7 @@
         </article>
         <!--END POST-IT2-->
         <!--START POST-IT3-->
-        <article>
+        <article class="wArticle">
           <h3>Chantier COLI</h3>
           <div>
             <input type="button" class="btn" value="ARRÊT" />
