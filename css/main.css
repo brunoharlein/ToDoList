@@ -97,13 +97,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*Start global Classes*/
+
+   /* CENTER TITLES */
    .center {
      text-align: center;
    }
+   /* STOP STYLE LI*/
    .noLi {
      list-style-type: none;
      display: flex;
    }
+   /* WIDTH NAV ASIDE SECTION AND ARTICLE */
    .wNav {
      width: 25%;
    }
@@ -118,31 +122,49 @@ textarea {
    .wArticle {
      width: 28%;
    }
+   /* FLEX SECTION-ARTICLE-POST-IT */
    .flexCenter {
      display: flex;
      justify-content: center;
    }
+   /* BORDER POST-IT */
    .brd {
-     border: 1px solid black;
+     border-radius: 25% 10%;
+     background-color: red;
+     margin: 40px 20px 40px 20px;
+   }
+   /* FLOAT PIC "BEST EMPLOYEE" */
+   .floatPic {
+     float: left;
+   }
+   /* RESIZE PICT "BEST EMPLOYEE" */
+   .resizePic {
+     max-width: 10%;
+     height: auto;
+   }
+   .test {
+     background-color: red;
    }
 
 
-
    /* =====================================start commun rules */
+
+   /* FLEXBOX NAV AND ASIDE */
    nav {
      width: 100%;
      background-color: yellow;
      display: flex;
      justify-content: space-between;
    }
-  nav div ul li {
+   /* PADDING NAV AND ASIDE */
+   nav div ul li {
      padding-left: 10px;
    }
    aside ul li {
      padding-left: 10px;
    }
-   main {
-     background-color: pink;
+   h3, h4{
+     margin-top: 12px;
    }
 
 
