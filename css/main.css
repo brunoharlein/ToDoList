@@ -96,6 +96,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*Start global Classes*/
+   .center {
+     text-align: center;
+   }
+
+   .noLi {
+     list-style-type: none;
+     display: flex;
+     align-items: flex-end;
+   }
+
+
+
+   /* =====================================start commun rules */
+   header {
+     background-color: red;
+   }
+   nav {
+     width: 100%;
+     background-color: yellow;
+     display: flex;
+     justify-content: space-between;
+
+   }
+
+
+
 
 
 
