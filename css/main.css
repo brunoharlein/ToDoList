@@ -109,18 +109,21 @@ textarea {
    }
    /* WIDTH NAV ASIDE SECTION AND ARTICLE */
    .wNav {
-     width: 25%;
+     width: 30%;
    }
    .wAside {
      width: 20%;
    }
    .wSection {
      width: 90%;
-     background-color: yellow;
+     background-color: #F0E2A3;
      margin: auto;
    }
    .wArticle {
      width: 28%;
+   }
+   .wP {
+     width: 80%;
    }
    /* FLEX SECTION-ARTICLE-POST-IT */
    .flexCenter {
@@ -130,8 +133,9 @@ textarea {
    /* BORDER POST-IT */
    .brd {
      border-radius: 25% 10%;
-     background-color: red;
+     background-color: #F1AB86;
      margin: 40px 20px 40px 20px;
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
    }
    /* FLOAT PIC "BEST EMPLOYEE" */
    .floatPic {
@@ -139,32 +143,85 @@ textarea {
    }
    /* RESIZE PICT "BEST EMPLOYEE" */
    .resizePic {
-     max-width: 10%;
+     max-width: 50%;
      height: auto;
    }
-   .test {
-     background-color: red;
+   /* WIDTH DIV FLOAT */
+   .wDivPict {
+     width: 18%;
    }
-
+   /* BACKGROUND COLOR BEST EMPLOYEE */
+   .backgColor {
+     background-color: #F0E2A3;
+   }
+   /* COLORS BUTTONS RED-YELLOW-GREEN */
+   .stop {
+     background-color: #AC3931;
+   }
+   .today {
+     background-color: #EEC643;
+   }
+   .end {
+     background-color: #91CB3E;
+   }
+   /* LINE-THROUGHT OL POST-IT*/
+   .endOl {
+     text-decoration: line-through;
+   }
+   /* PADDING AND MARGIN */
+   .paddingTop {
+     padding-top: 40px;
+   }
+   .paddingBottom {
+     padding-bottom: 30px;
+   }
+   .marginBottom {
+     margin-bottom: 0.5em;
+   }
 
    /* =====================================start commun rules */
 
+   /*POLICE*/
+   h1 {
+     font-family: 'Assistant', sans-serif;
+     font-size: 60px;
+     padding-top: 20px;
+     margin: 0em;
+   }
+   h2, h3, h4 {
+     font-family: 'News Cycle', sans-serif;
+
+   }
+   p, li {
+     font-family: 'Khula', sans-serif;
+     font-size: 1.1em;
+   }
    /* FLEXBOX NAV AND ASIDE */
    nav {
      width: 100%;
-     background-color: yellow;
      display: flex;
      justify-content: space-between;
+     padding-bottom: 20px;
    }
    /* PADDING NAV AND ASIDE */
    nav div ul li {
-     padding-left: 10px;
+     padding-left: 15px;
    }
    aside ul li {
-     padding-left: 10px;
+     padding-left: 15px;
    }
    h3, h4{
      margin-top: 12px;
+   }
+   /* COLORS */
+   header, main, footer, nav {
+     background-color: #F0E2A3;
+   }
+   body {
+     background-color: black;
+   }
+   footer {
+     padding: 15px 15px 15px 15px;
    }
 
 
