@@ -143,12 +143,15 @@ textarea {
    }
    /* RESIZE PICT "BEST EMPLOYEE" */
    .resizePic {
-     max-width: 50%;
+     max-width: 100%;
      height: auto;
    }
    /* WIDTH DIV FLOAT */
    .wDivPict {
-     width: 18%;
+     width: 40%;
+   }
+   .clearfix {
+     overflow: auto;
    }
    /* BACKGROUND COLOR BEST EMPLOYEE */
    .backgColor {
@@ -223,7 +226,14 @@ textarea {
    footer {
      padding: 15px 15px 15px 15px;
    }
-
+   .marginP {
+     margin-right: 20px;
+   }
+   .marginAuto {
+     margin: auto;
+     border: solid;
+     padding: 10px;
+   }
 
 
 
