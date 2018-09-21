@@ -96,6 +96,148 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*Start global Classes*/
+
+   /* CENTER TITLES */
+   .center {
+     text-align: center;
+   }
+   /* STOP STYLE LI*/
+   .noLi {
+     list-style-type: none;
+     display: flex;
+   }
+   /* WIDTH NAV ASIDE SECTION AND ARTICLE */
+   .wNav {
+     width: 30%;
+   }
+   .wAside {
+     width: 20%;
+   }
+   .wSection {
+     width: 90%;
+     background-color: #F0E2A3;
+     margin: auto;
+   }
+   .wArticle {
+     width: 28%;
+   }
+   .wP {
+     width: 80%;
+   }
+   /* FLEX SECTION-ARTICLE-POST-IT */
+   .flexCenter {
+     display: flex;
+     justify-content: center;
+   }
+   /* BORDER POST-IT */
+   .brd {
+     border-radius: 25% 10%;
+     background-color: #F1AB86;
+     margin: 40px 20px 40px 20px;
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+   }
+   /* FLOAT PIC "BEST EMPLOYEE" */
+   .floatPic {
+     float: left;
+   }
+   /* RESIZE PICT "BEST EMPLOYEE" */
+   .resizePic {
+     max-width: 100%;
+     height: auto;
+   }
+   /* WIDTH DIV FLOAT */
+   .wDivPict {
+     width: 40%;
+   }
+   .clearfix {
+     overflow: auto;
+   }
+   /* BACKGROUND COLOR BEST EMPLOYEE */
+   .backgColor {
+     background-color: #F0E2A3;
+   }
+   /* COLORS BUTTONS RED-YELLOW-GREEN */
+   .stop {
+     background-color: #AC3931;
+   }
+   .today {
+     background-color: #EEC643;
+   }
+   .end {
+     background-color: #91CB3E;
+   }
+   /* LINE-THROUGHT OL POST-IT*/
+   .endOl {
+     text-decoration: line-through;
+   }
+   /* PADDING AND MARGIN */
+   .paddingTop {
+     padding-top: 40px;
+   }
+   .paddingBottom {
+     padding-bottom: 30px;
+   }
+   .marginBottom {
+     margin-bottom: 0.5em;
+   }
+
+   /* =====================================start commun rules */
+
+   /*POLICE*/
+   h1 {
+     font-family: 'Assistant', sans-serif;
+     font-size: 60px;
+     padding-top: 20px;
+     margin: 0em;
+   }
+   h2, h3, h4 {
+     font-family: 'News Cycle', sans-serif;
+
+   }
+   p, li {
+     font-family: 'Khula', sans-serif;
+     font-size: 1.1em;
+   }
+   /* FLEXBOX NAV AND ASIDE */
+   nav {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 20px;
+   }
+   /* PADDING NAV AND ASIDE */
+   nav div ul li {
+     padding-left: 15px;
+   }
+   aside ul li {
+     padding-left: 15px;
+   }
+   h3, h4{
+     margin-top: 12px;
+   }
+   /* COLORS */
+   header, main, footer, nav {
+     background-color: #F0E2A3;
+   }
+   body {
+     background-color: black;
+   }
+   footer {
+     padding: 15px 15px 15px 15px;
+   }
+   .marginP {
+     margin-right: 20px;
+   }
+   .marginAuto {
+     margin: auto;
+     border: solid;
+     padding: 10px;
+   }
+
+
+
+
 
 
 

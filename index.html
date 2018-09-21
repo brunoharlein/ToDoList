@@ -1,25 +1,210 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>ToDoList HTML/CSS</title>
+  <meta name="description" content="HTML and CCS Web site for ADEP formation">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Assistant|Khula|News+Cycle" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-
-
+  <!-- START HEADER -->
+  <header>
+    <section>
+      <h1 class ="center">LISTE DES TRAVAUX EN COURS</h1>
+      <h2 class ="center">ENTREPRISE ADEP</h2>
+    </section>
+    <!-- START NAV-->
+    <nav>
+      <div class="wNav">
+        <ul class ="noLi">
+          <li><a href="corbeille.html"><i class="fas fa-trash"></i>Corbeille</a></li>
+          <li><a href="perso.html"><i class="fas fa-user"></i>Infos Utilisateur</a></li>
+          <li><a href="projet.html"><i class="fas fa-file-export"></i>Nouveau Projet</a></li>
+        </ul>
+      </div>
+      <!-- START ASIDE-->
+      <aside class="wAside">
+        <ul class ="noLi">
+          <li><a href="connexion.html"><i class="fas fa-sign-in-alt"></i>Connexion</a></li>
+          <li><a href="deconnexion.html"><i class="fas fa-door-open"></i>Déconnexion</a></li>
+        </ul>
+      </aside>
+    </nav>
+  </header>
+  <!-- END HEADER-->
+  <!-- START MAIN -->
+  <main>
+    <!--START SECTION : SEMAINE 23-->
+    <section class="wSection">
+      <h3 class="center paddingTop">SEMAINE : 23</h3>
+      <div class="flexCenter">
+        <!--START POST-IT1-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn stop" value="ARRÊT" />
+            <input type="button" class="btn" value="EN COURS" />
+            <input type="button" class="btn" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol>
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT1-->
+        <!--START POST-IT2-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn" value="ARRÊT" />
+            <input type="button" class="btn today" value="EN COURS" />
+            <input type="button" class="btn" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol>
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT2-->
+        <!--START POST-IT3-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn" value="ARRÊT" />
+            <input type="button" class="btn" value="EN COURS" />
+            <input type="button" class="btn end" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol class="endOl">
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT3-->
+      </div>
+    </section>
+    <!--END SECTION SEMAINE 23-->
+    <!--START SECTION : SEMAINE 24-->
+    <section class="wSection">
+      <h3 class="center">SEMAINE : 24</h3>
+      <div class="flexCenter">
+        <!--START POST-IT1-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn" value="ARRÊT" />
+            <input type="button" class="btn" value="EN COURS" />
+            <input type="button" class="btn end" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol class="endOl">
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT1-->
+        <!--START POST-IT2-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn" value="ARRÊT" />
+            <input type="button" class="btn" value="EN COURS" />
+            <input type="button" class="btn end" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol class="endOl">
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT2-->
+        <!--START POST-IT3-->
+        <article class="wArticle brd">
+          <h3 class="center">Chantier COLI</h3>
+          <div class="center">
+            <input type="button" class="btn" value="ARRÊT" />
+            <input type="button" class="btn today" value="EN COURS" />
+            <input type="button" class="btn" value="TERMINÉ" />
+          </div>
+          <article>
+            <h4 class="center">DESCRIPTIF CHANTIER</h4>
+            <p class="center">Mettre en oeuvre un super chantier au 321 rue Coli.<br> C'est la maison du chef donc faut faire un super truc.</p>
+          </article>
+          <div>
+            <ol>
+              <li>Etre à l'heure</li>
+              <li>ne pas boire d'alcool</li>
+              <li>Manger que des salades</li>
+            </ol>
+          </div>
+        </article>
+        <!--END POST-IT3-->
+      </div>
+    </section>
+    <!--END SECTION SEMAINE 24-->
+    <!--START BEST EMPLOYEE-->
+    <article class="backgColor">
+      <h2 class="center paddingTop paddingBottom">EMPLOYÉ DU MOIS</h2>
+      <div class="wDivPict clearfix marginAuto">
+        <img class="floatPic marginP" src="img/bruno.jpg" alt="employé du mois" width="300" height="auto"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </article>
+    <!--END BEST EMPLOYEE-->
+  </main>
+  <!--END MAIN-->
+  <!-- START FOOTER-->
+  <footer>
+    <ul>
+      <li>Site réalisé par BRUNO HARLEIN</li>
+      <li>Made in ADEP</li>
+      <li>Copyright 2018</li>
+    </ul>
+  </footer>
+  <!--END FOOTER-->
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
